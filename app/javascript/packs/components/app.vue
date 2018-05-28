@@ -1,6 +1,8 @@
 
 <template>
   <div id='app'>
+    <a href="/gitusers">Gitusers</a>
+    <a href="/">Home</a>
     <div v-for="user in users" :key="user.id" class="gituser__card">
       <img class="gituser__card__img" :src="user.avatar_url" alt="">
       <div class="gituser__card__description">
