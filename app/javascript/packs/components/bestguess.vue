@@ -1,6 +1,6 @@
 <template>
     <div>
-        aasdfasd
+        <a href="/">home</a>
     </div>
 </template>
 
