@@ -24,6 +24,9 @@
 // Vue.directive('linkified', linkify)
 
 export default {
+  mounted() {
+    console.log(this);
+  },
   data: function() {
     return {
       users: [
