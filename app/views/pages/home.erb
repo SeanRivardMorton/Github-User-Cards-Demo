@@ -6,6 +6,9 @@
     <%= javascript_pack_tag 'application_vue' %>
     <%= stylesheet_pack_tag 'application_vue', media: 'all' %>
 
+    <% props = ENV["GITHUB_ACCESS_TOKEN"].to_json %>
+    <div id="Github_Token" data="<%= props %>"></div>
+
   </head>
 
   <body>
