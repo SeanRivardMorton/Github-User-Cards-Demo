@@ -1,6 +1,11 @@
-# GITHUB LANGUAGE GUESSER WITH A HTML AND CSS DEMONSTRATION
+# Github language guesser & html/css demonstration
 
 I built a rails project that delivers a vue app to users. The Rails app doesn't really do that much other than deliver the API key to vue.
+
+On a sidenote, the linked github documentation accounced that they recently released v4 of their api, using GraphQL to access it. I used graphql instead of a traditional approach. 
+
+Considerations:
+I could have used a graphql gem for ruby, though I thought it would be more responsive if it were in the front-end.
 
 ## Take away
 
