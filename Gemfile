@@ -18,6 +18,9 @@ gem 'webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
+# figaro for env vars
+gem 'figaro'
+
 # Use graphql for accessing graphql enabled api calls
 gem 'graphql-client'
 
