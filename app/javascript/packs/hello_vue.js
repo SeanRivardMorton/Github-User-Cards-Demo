@@ -6,7 +6,7 @@
 // All it does is render <div>Hello Vue</div> at the bottom of the page.
 
 import Vue from 'vue/dist/vue.esm';
-import App from './components/app';
+import App from './components/GitHubBrowser';
 
 document.addEventListener('DOMContentLoaded', () => {
   document.body.appendChild(document.createElement('app'));
