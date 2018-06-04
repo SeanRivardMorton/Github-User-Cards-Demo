@@ -15,7 +15,8 @@
     "vue-apollo": "^3.0.0-alpha.3",
     "vue-linkify": "^1.0.1",
     "vue-loader": "14.2.2",
-    "vue-template-compiler": "^2.5.16"
+    "vue-template-compiler": "^2.5.16",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "prettier": "^1.12.0",
