@@ -20,8 +20,6 @@ const authLink = setContext((_, { headers }) => {
   const element = document.getElementById('Github_Token');
   const token = JSON.parse(element.getAttribute('data'));
 
-  console.log(token === 'cc1c86671fc902f7fd85373c3e6444b2846009cd');
-
   // return the headers to the context so httpLink can read them
   return {
     headers: {
