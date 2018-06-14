@@ -1,11 +1,11 @@
 <template>
-    <div class="content">
-        <div class="columns">
-            <h2 class="column">Start the search</h2>
-            <span class="tag is-success column is-narrow">{{ mostUsedLanguage }}</span>
-        </div>
-        <input v-model.lazy="input" class="input" type="text" :placeholder="placeholder">
+  <div class="content">
+    <div class="columns">
+      <h2 class="column">Start the search</h2>
+      <span class="tag is-success column is-narrow">{{ mostUsedLanguage }}</span>
     </div>
+    <input v-model.lazy="input" class="input" type="text" :placeholder="placeholder">
+  </div>
 </template>
 
 <script>
