@@ -1,24 +1,37 @@
-# README
+# Github language guesser & html/css demonstration
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I built a rails project that delivers a vue app to users. The Rails app doesn't really do that much other than deliver the API key to vue.
 
-Things you may want to cover:
+On a sidenote, the linked github documentation accounced that they recently released v4 of their api, using GraphQL to access it. I used graphql instead of a traditional approach. 
 
-* Ruby version
+Considerations:
+I could have used a graphql gem for ruby, though I thought it would be more responsive if it were in the front-end.
 
-* System dependencies
+## Take away
 
-* Configuration
+Adding Vue apps to pre-existing rails apps is certainly possible.
 
-* Database creation
+# Project Set up 
+> Getting the Code
+```bash
+$ git clone https://github.com/SeanRivardMorton/Github-User-Cards-Demo.git
 
-* Database initialization
+$ bundle install
+```
 
-* How to run the test suite
+> Getting Webpacker set-up
+I was having issues with npm and yarn, but doing it in this order got it to work.
+```bash
+$ bin/yarn install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+$ bin/npm install
+```
 
-* Deployment instructions
+> Starting the Server
+```bash
+$ GITHUB_ACCESS_TOKEN=[put your token here] bin/rails server
 
-* ...
+```
+
